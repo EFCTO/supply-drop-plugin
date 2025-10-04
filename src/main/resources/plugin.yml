@@ -1,0 +1,12 @@
+name: SupplyDropPlugin
+version: 1.0
+main:
+api-version: "1.20"
+description: "네더라이트 보급 시스템 플러그인"
+
+commands:
+  supply:
+    description: "보급품을 소환하는 명령어"
+    usage: "/<command> [normal|netherite]"
+    permission: "supplydrop.use"
+    permission-message: "권한이 없습니다."

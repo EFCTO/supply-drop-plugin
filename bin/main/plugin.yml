@@ -1,0 +1,12 @@
+name: SupplyDropPlugin           # 플러그인 이름
+version: 1.0                     # 플러그인 버전
+main: com.example.supplydrop.Supplydrop
+api-version: "1.20"              # Spigot/Paper API 버전 (예: 1.19, 1.20 등)
+description: "네더라이트 보급 시스템 플러그인"
+
+commands:
+  supply:
+    description: "보급품을 소환하는 명령어"
+    usage: "/<command> [normal|netherite]"
+    permission: "supplydrop.use"            # 필요 시 권한
+    permission-message: "권한이 없습니다."
